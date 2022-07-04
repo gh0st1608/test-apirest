@@ -1,3 +1,4 @@
-const app  = require('../src/api/loaders/express');
+const app  = require('../test/loaders/express');
+const conn  = require('../test/loaders/db');
 
 app.initServer();
